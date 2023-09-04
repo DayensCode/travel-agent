@@ -13,3 +13,34 @@ body {
 img {
 	display: block;//убирает отступ добавляемый браузером по умолчанию
 }
+
+.title-1 {
+	color: var(--text-color);
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+
+	&--decor {
+		position: relative;
+	}
+
+	&--decor::after {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 268px;
+		height: 24px;
+		background-image: url('./../img/discover/underline.svg');
+		z-index: -1;
+	}
+}
+
+.text {
+	color: var(--text-muted);
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 450;
+	line-height: 150%;
+}
