@@ -1,6 +1,6 @@
 .hint-discover {
 	display: flex;
-	max-width: 324px;
+	width: 324px;
 	padding: 12px;
 	gap: 16px;
 
@@ -46,7 +46,7 @@
 		content: "";
 		width: 17px;
 		height: 16px;
-		background-image: url('./../../img/icons/star-small.svg');
+		background-image: url('./../img/icons/star-small.svg');
 	}
 }
 
