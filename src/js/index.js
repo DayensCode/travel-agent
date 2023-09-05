@@ -3,3 +3,6 @@
 
 import autoCountryComplete from "./modules/auto-complete";
 autoCountryComplete();
+
+import datePicker from "./modules/date-picker";
+datePicker();
