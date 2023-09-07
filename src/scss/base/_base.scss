@@ -15,7 +15,6 @@ img {
 }
 
 .title-1 {
-	color: var(--text-color);
 	font-size: 72px;
 	font-style: normal;
 	font-weight: 700;
@@ -35,6 +34,13 @@ img {
 		background-image: url('./../img/discover/underline.svg');
 		z-index: -1;
 	}
+}
+
+.title-3 {
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
 }
 
 .text {
