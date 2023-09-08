@@ -4,6 +4,10 @@
 
 .popular__top {
 	margin-bottom: 32px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
 }
 
 .popular__title {
@@ -11,6 +15,11 @@
 	gap: 16px;
 }
 
-.popular__content {
+.popular__controls {
+	display: flex;
+	gap: 15px;
+}
+
+.popular__slider {
 
 }
