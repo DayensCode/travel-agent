@@ -2,9 +2,42 @@
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 30px;
+	overflow: hidden;
 }
 
 .testimonials__column {
 	display: grid;
 	gap: 30px;
+
+	animation: slideUp 20s linear infinite;
+}
+
+@keyframes slideUp {
+	0% {
+		transform: translateY(0);
+	}
+
+	95% {
+		transform: translateY(-50%);
+		opacity: 1;
+		filter: blur(0px);
+	}
+
+	97% {
+		transform: translateY(-50%);
+		opacity: 0;
+		filter: blur(10px);
+	}
+
+	98% {
+		transform: translateY(0%);
+		opacity: 0;
+		filter: blur(10px);
+	}
+
+	100% {
+		transform: translateY(0%);
+		opacity: 1;
+		filter: blur(0px);
+	}
 }
