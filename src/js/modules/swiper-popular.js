@@ -9,6 +9,7 @@ function swiperHorizontal() {
 			nextEl: '#sliderNext',
 			prevEl: '#sliderPrev',
 		},
+		loop: true
 	});
 }
 	
