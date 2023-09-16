@@ -1,24 +1,10 @@
 <section class="testimonials">
 	<div class="container">
 		<div class="testimonials__grid">
-			<div class="testimonials__column">
-				@@include('testimonials/card.html')
-				@@include('testimonials/card.html')
-				@@include('testimonials/card.html')
-				@@include('testimonials/card.html')
-			</div>
-			<div class="testimonials__column">
-				@@include('testimonials/card.html')
-				@@include('testimonials/card.html')
-				@@include('testimonials/card.html')
-				@@include('testimonials/card.html')
-			</div>
-			<div class="testimonials__column">
-				@@include('testimonials/card.html')
-				@@include('testimonials/card.html')
-				@@include('testimonials/card.html')
-				@@include('testimonials/card.html')
-			</div>
+				@@loop('./templates/card-review.html', './data/testimonials.json')
+
+
+				<!-- @@include('testimonials/card.html') -->
 		</div>
 	</div>
 </section>
