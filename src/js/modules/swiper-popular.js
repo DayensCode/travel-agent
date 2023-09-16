@@ -1,8 +1,8 @@
 import Swiper from 'swiper/bundle';
 import 'swiper/css/bundle';
 
-function swiper() {
-	const swiper = new Swiper('.swiper', {
+function swiperHorizontal() {
+	const swiper = new Swiper('#swiper-popular', {
 		slidesPerView: 4,
 		spaceBetween: 32,
 		navigation: {
@@ -12,4 +12,4 @@ function swiper() {
 	});
 }
 	
-export default swiper;
+export default swiperHorizontal;

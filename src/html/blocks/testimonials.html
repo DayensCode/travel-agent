@@ -1,10 +1,31 @@
 <section class="testimonials">
 	<div class="container">
 		<div class="testimonials__grid">
-				@@loop('./templates/card-review.html', './data/testimonials.json')
 
+			<div class="testimonials__column">
+				<div class="swiper testimonials__swiper" id="testimonials-colummn-1">
+					<div class="swiper-wrapper smooth-transition">
+						@@loop('./templates/card-review.html', './data/testimonials-column-1.json')
+					</div>
+				</div>
+			</div>
 
-				<!-- @@include('testimonials/card.html') -->
+			<div class="testimonials__column">
+				<div class="swiper testimonials__swiper" id="testimonials-colummn-2">
+					<div class="swiper-wrapper smooth-transition">
+						@@loop('./templates/card-review.html', './data/testimonials-column-2.json')
+					</div>
+				</div>
+			</div>
+
+			<div class="testimonials__column">
+				<div class="swiper testimonials__swiper" id="testimonials-colummn-3">
+					<div class="swiper-wrapper smooth-transition">
+						@@loop('./templates/card-review.html', './data/testimonials-column-3.json')
+					</div>
+				</div>
+			</div>
+			
 		</div>
 	</div>
 </section>

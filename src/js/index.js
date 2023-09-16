@@ -7,8 +7,10 @@ autoCountryComplete();
 import datePicker from "./modules/date-picker";
 datePicker();
 
-import swiper from "./modules/swiper";
-swiper();
+import swiperHorizontal from "./modules/swiper-popular";
+import swiperVertical from "./modules/swiper-testimonials";
+swiperHorizontal();
+swiperVertical();
 
 import scrollReveal from "./modules/scroll-reveal";
 scrollReveal();
