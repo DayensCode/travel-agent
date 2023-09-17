@@ -9,13 +9,13 @@
 		"img": "bali.jpg",
 		"title": "Bali, Indonesia",
 		"rating": "4.5",
-		"price": "900"
+		"price": "480"
 	},
 	{
 		"img": "bangkok.jpg",
 		"title": "Bangkok, Thailand",
 		"rating": "4.5",
-		"price": "900"
+		"price": "440"
 	},
 	{
 		"img": "santorini.jpg",
@@ -27,13 +27,13 @@
 		"img": "paris.jpg",
 		"title": "Paris, France",
 		"rating": "4.5",
-		"price": "900"
+		"price": "1100"
 	},
 	{
 		"img": "new-york.jpg",
 		"title": "New York, USA",
 		"rating": "4.5",
-		"price": "900"
+		"price": "1800"
 	},
 	{
 		"img": "dubai.jpg",
@@ -51,13 +51,13 @@
 		"img": "bali.jpg",
 		"title": "Bali, Indonesia",
 		"rating": "4.5",
-		"price": "900"
+		"price": "480"
 	},
 	{
 		"img": "bangkok.jpg",
 		"title": "Bangkok, Thailand",
 		"rating": "4.5",
-		"price": "900"
+		"price": "440"
 	},
 	{
 		"img": "santorini.jpg",
@@ -69,13 +69,13 @@
 		"img": "paris.jpg",
 		"title": "Paris, France",
 		"rating": "4.5",
-		"price": "900"
+		"price": "1100"
 	},
 	{
 		"img": "new-york.jpg",
 		"title": "New York, USA",
 		"rating": "4.5",
-		"price": "900"
+		"price": "1800"
 	},
 	{
 		"img": "dubai.jpg",
